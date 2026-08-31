@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package
+    xmlns="http://www.idpf.org/2007/opf"
+    version="3.0"
+    unique-identifier="book-id">
+
+    <metadata
+        xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+        <dc:identifier id="book-id">
+            accessible-ebook-project
+        </dc:identifier>
+
+        <dc:title>
+            Breast Cancer Detection
+        </dc:title>
+
+        <dc:creator>
+            Project Team
+        </dc:creator>
+
+        <dc:language>
+            en
+        </dc:language>
+
+        <dc:description>
+            An accessible multilingual eBook providing
+            information about breast cancer detection
+            and early awareness.
+        </dc:description>
+
+    </metadata>
+
+</package>
