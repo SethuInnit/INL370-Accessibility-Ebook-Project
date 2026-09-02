@@ -61,6 +61,16 @@
             href="text/chapter-01.xhtml"
             media-type="application/xhtml+xml"/>
 
+        <item id="chapter01-zu"
+      href="text/chapter-01-zu.xhtml"
+      media-type="application/xhtml+xml"/>
+
+        <item id="chapter01-af"
+      href="text/chapter-01-af.xhtml"
+      media-type="application/xhtml+xml"/>
+
+
+
     </manifest>
 
     <spine>
