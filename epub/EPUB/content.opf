@@ -74,9 +74,7 @@
     </manifest>
 
     <spine>
-
-        <itemref idref="chapter01"/>
-
-    </spine>
+    <itemref idref="language-selection"/>
+</spine>
 
 </package>
