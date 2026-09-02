@@ -21,9 +21,10 @@
             Project Team
         </dc:creator>
 
-        <dc:language>
-            en
-        </dc:language>
+        <dc:language>en</dc:language>
+        <dc:language>zu</dc:language>
+        <dc:language>af</dc:language>
+
 
         <dc:description>
             An accessible multilingual eBook providing
