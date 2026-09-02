@@ -130,6 +130,15 @@
     id="chapter02"
     href="text/chapter-02.xhtml"
     media-type="application/xhtml+xml"/>
+<item
+    id="chapter02-zu"
+    href="text/chapter-02-zu.xhtml"
+    media-type="application/xhtml+xml"/>
+
+<item
+    id="chapter02-af"
+    href="text/chapter-02-af.xhtml"
+    media-type="application/xhtml+xml"/>
 
     </manifest>
 
