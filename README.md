@@ -1,1 +1,1 @@
-The Project is a website that has a eBook, educating about Breast cancer
+The Project is a website that has a eBook and it'stranslations, educating about Breast cancer
