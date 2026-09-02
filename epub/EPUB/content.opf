@@ -2,6 +2,7 @@
 
 <package
     xmlns="http://www.idpf.org/2007/opf"
+    xmlns:schema="http://schema.org/"
     version="3.0"
     unique-identifier="book-id">
 
@@ -21,10 +22,11 @@
             Project Team
         </dc:creator>
 
+        <!-- Languages -->
+
         <dc:language>en</dc:language>
         <dc:language>zu</dc:language>
         <dc:language>af</dc:language>
-
 
         <dc:description>
             An accessible multilingual eBook providing
@@ -33,7 +35,53 @@
         </dc:description>
 
         <meta property="dcterms:modified">
-            2026-08-31T00:00:00Z
+            2026-09-02T00:00:00Z
+        </meta>
+
+        <!-- Accessibility -->
+
+        <meta property="schema:accessMode">
+            textual
+        </meta>
+
+        <meta property="schema:accessMode">
+            visual
+        </meta>
+
+        <meta property="schema:accessibilityFeature">
+            alternativeText
+        </meta>
+
+        <meta property="schema:accessibilityFeature">
+            structuralNavigation
+        </meta>
+
+        <meta property="schema:accessibilityFeature">
+            readingOrder
+        </meta>
+
+        <meta property="schema:accessibilityFeature">
+            displayTransformability
+        </meta>
+
+        <meta property="schema:accessibilityFeature">
+            highContrastDisplay
+        </meta>
+
+        <meta property="schema:accessibilityHazard">
+            noFlashingHazard
+        </meta>
+
+        <meta property="schema:accessibilityHazard">
+            noSoundHazard
+        </meta>
+
+        <meta property="schema:accessibilitySummary">
+            This ebook provides accessible text content
+            in English, isiZulu, and Afrikaans. It uses
+            semantic structure, language identification,
+            alternative text for images, and reflowable
+            content to support accessible reading.
         </meta>
 
     </metadata>
@@ -47,6 +95,13 @@
             href="nav.xhtml"
             media-type="application/xhtml+xml"
             properties="nav"/>
+
+        <!-- Language Selection -->
+
+        <item
+            id="language-selection"
+            href="language-selection.xhtml"
+            media-type="application/xhtml+xml"/>
 
         <!-- CSS -->
 
@@ -62,20 +117,20 @@
             href="text/chapter-01.xhtml"
             media-type="application/xhtml+xml"/>
 
-        <item id="chapter01-zu"
-      href="text/chapter-01-zu.xhtml"
-      media-type="application/xhtml+xml"/>
+        <item
+            id="chapter01-zu"
+            href="text/chapter-01-zu.xhtml"
+            media-type="application/xhtml+xml"/>
 
-        <item id="chapter01-af"
-      href="text/chapter-01-af.xhtml"
-      media-type="application/xhtml+xml"/>
-
-
+        <item
+            id="chapter01-af"
+            href="text/chapter-01-af.xhtml"
+            media-type="application/xhtml+xml"/>
 
     </manifest>
 
     <spine>
-    <itemref idref="language-selection"/>
-</spine>
+        <itemref idref="language-selection"/>
+    </spine>
 
 </package>
